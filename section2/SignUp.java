@@ -39,13 +39,13 @@ public class SignUp {
 
         // Print their information like so:
         System.out.println("\nyour information are:");
-        System.out.println("    First Name: " + firstName);
-        System.out.println("    Last Name:  " + lastName);
-        System.out.println("    age:        " + age);
-        System.out.println("    User Name:  " + username);
-        System.out.println("    City:       " + city);
-        System.out.println("    Nationality:" + nationality + "\n");
-        System.out.println("            Bye");
+        System.out.println("\tFirst Name: " + firstName);
+        System.out.println("\tLast Name:  " + lastName);
+        System.out.println("\tage:        " + age);
+        System.out.println("\tUser Name:  " + username);
+        System.out.println("\tCity:       " + city);
+        System.out.println("\tNationality:" + nationality + "\n");
+        System.out.println("\t\t\tBye");
 
         // Your information:
         // First Name: Rayan
