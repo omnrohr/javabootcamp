@@ -5,6 +5,6 @@ public class JoiningStrings {
         System.out.println(sentence + placeholder);
 
         int points = 50;
-        System.out.println("Ponts of Gryffin is: " + points);
+        System.out.println("Ponts of Gryffindor is: " + points);
     }
 }
