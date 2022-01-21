@@ -8,4 +8,5 @@ AllSections/.idea/project-template.xml
 AllSections/.idea/modules.xml
 AllSections/.idea/misc.xml
 AllSections/.idea/encodings.xml
-AllSections/.idea/.gitignore
+*.class
+AllSections/.idea/workspace.xml
