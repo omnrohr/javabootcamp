@@ -23,7 +23,7 @@ public class Delimeter {
 
         System.out.println("\tIntegers: " + num1 + " " + num2 + "\n");
         System.out.println("\tLong number: " + lnum1 + " " + lnum2 + "\n");
-        System.out.println("\tDecimal numbers: " + dnum1 + " " + lnum2 + "\n");
+        System.out.println("\tDecimal numbers: " + dnum1 + " " + dnum2 + "\n");
         System.out.println("\tText values: " + val1 + " " + val2 + "\n");
 
     }
