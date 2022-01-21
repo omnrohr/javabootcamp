@@ -17,7 +17,19 @@ public class ReturnValue {
                 + measureRectangle(length, width) + "\n");
     }
 
+    /**
+     * Function name: stringPrinter. <-----
+     * 
+     * @param length (double)
+     * @param width  (double)
+     * @param area   (double)
+     * @return area (double)
+     *
+     *         Inside the function:
+     *         1. return the area of rectangle. area = length * width.
+     */
     public static String stringPrinter(double length, double width, double area) {
+
         return ("The area of a rectangle with length " + length + " and width of " + width + " is equal to "
                 + area);
     }
