@@ -1,5 +1,3 @@
-package section4;
-
 public class Detention {
   public static void main(String[] args) {
 

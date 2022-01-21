@@ -10,3 +10,5 @@ AllSections/.idea/misc.xml
 AllSections/.idea/encodings.xml
 *.class
 AllSections/.idea/workspace.xml
+.vscode/settings.json
+

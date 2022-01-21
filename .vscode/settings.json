@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "section3",
         ".",
-        "section2"
+        "section2",
+        "section4"
     ]
 }
