@@ -42,8 +42,27 @@ public class TDArrays {
         System.out.println(table.length);
         System.out.println(table[0].length);
         System.out.println(table[1].length);
+        System.out.println("============= Nested loop print ============ ");
+        for (int row = 0; row < grade.length; row++) {
+            switch (row) {
+                case 0:
+                    System.out.print("First Student: ");
+                    break;
+                case 1:
+                    System.out.print("Second Student: ");
+                    break;
+                case 2:
+                    System.out.print("Third Student: ");
+                    break;
+            }
+            for (int column = 0; column < grade[row].length; column++) {
 
-        String[][] table1 = new String[3][2];
-        System.out.println(Arrays.toString(table1[3]));
+                System.out.print(grade[row][column] + " ");
+            }
+            System.out.println("\n");
+        }
+
+        System.out.println("============= End of nested loop print ============ ");
+
     }
 }
