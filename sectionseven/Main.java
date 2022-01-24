@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
         Car nissan = new Car();
-        Car dodge = new Car("Dodge", 11000,2019,"Red");
-        nissan.make= "Nissan";
-        nissan.price=5000;
-        nissan.year=2010;
-        nissan.color="blue";
-        System.out.println("This "+nissan.make+" is worth: $"+nissan.price+" it was built in: "+
-                nissan.year+" It is: "+nissan.color+" color.");
-        System.out.println("This "+dodge.make+" is worth: $"+dodge.price+" it was built in: "+
-                dodge.year+" It is: "+dodge.color+" color.");
+        Car dodge = new Car("Dodge", 11000, 2019, "Red");
+        nissan.setColor("Nissan");
+        nissan.setPrice(5000);
+        nissan.setYear(2010);
+        nissan.setColor("blue");
+        System.out.println("This " + nissan.getMake() + " is worth: $" + nissan.getPrice() + " it was built in: " +
+                nissan.getYear() + " It is: " + nissan.getColor() + " color.");
+        System.out.println("This " + dodge.getMake() + " is worth: $" + dodge.getPrice() + " it was built in: " +
+                dodge.getYear() + " It is: " + dodge.getColor() + " color.");
         System.out.println(dodge);
     }
 }
