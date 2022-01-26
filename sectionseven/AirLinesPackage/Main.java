@@ -5,7 +5,7 @@ import java.util.Arrays;
 //
 //import java.util.Arrays;
 //
-//public class Main {
+//public class CarDealerShip.Main {
 //    public static void main(String[] args) {
 //        String[] passport = {"Rayan Slim", "Canadian", "01/01/1111"};
 //        Person rayan = new Person("Rayan Slim", "Canadian", "01/01/1111", passport,11 );
