@@ -1,3 +1,5 @@
+package CarDealerShip;
+
 import java.util.Arrays;
 
 public class Car {
@@ -7,24 +9,22 @@ public class Car {
     private String color;
     private String[] parts;
 
-    public Car(String make, double price, int year, String color, String[] parts) {
+    public Car(String make, double price, int year,String color, String[] parts){
         this.make = make;
         this.price = price;
         this.year = year;
         this.color = color;
-        this.parts = Arrays.copyOf(parts, parts.length);
+        this.parts= Arrays.copyOf(parts,parts.length);
     }
-
-    public Car(Car source) {
+    public Car(Car source){
         this.make = source.make;
         this.price = source.price;
         this.year = source.year;
-        this.color = source.color;
-        this.parts = Arrays.copyOf(source.parts, source.parts.length);
+        this.color=source.color;
+        this.parts= Arrays.copyOf(source.parts,source.parts.length);
     }
-
-    public Car() {
-        this("toyota", 19000, 2002, "white", null);
+    public Car(){
+        this("toyota", 19000, 2002,"white", null);
     }
 
     public String getMake() {
@@ -44,7 +44,7 @@ public class Car {
     }
 
     public String[] getParts() {
-        return Arrays.copyOf(this.parts, parts.length);
+        return Arrays.copyOf(this.parts,parts.length);
     }
 
     public void setMake(String make) {
@@ -64,12 +64,12 @@ public class Car {
     }
 
     public void setParts(String[] parts) {
-        this.parts = Arrays.copyOf(parts, parts.length);
+        this.parts = Arrays.copyOf(parts,parts.length);
     }
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "CarDealerShip.Car{" +
                 "make='" + make + '\'' +
                 ", price=" + price +
                 ", year=" + year +
@@ -78,8 +78,8 @@ public class Car {
                 '}';
     }
 
-    public void drive() {
-        System.out.println("You bought this beautiful " + this.year + " " + this.make + " car, whith color " +
-                this.color + " and its ready to drive.");
+    public void drive(){
+        System.out.println("You bought this beautiful "+ this.year+" "+this.make+" car, whith color "+
+                this.color+ " and its ready to drive.");
     }
 }
