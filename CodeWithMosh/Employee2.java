@@ -10,6 +10,10 @@ public class Employee2 {
         if (baseSalary > 0)
             this.baseSalary = baseSalary;
         else
-            System.out.println("Invalid input");
+            throw new IllegalArgumentException("baseSalary must be greater than 0");
+    }
+
+    public int getBaseSalary() {
+        return baseSalary;
     }
 }
