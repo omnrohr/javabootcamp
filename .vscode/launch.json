@@ -1,0 +1,679 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "AirLinesPackage.Main",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch AskJava",
+            "request": "launch",
+            "mainClass": "AskJava",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Beer",
+            "request": "launch",
+            "mainClass": "Beer",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Biography",
+            "request": "launch",
+            "mainClass": "Biography",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Blackjack",
+            "request": "launch",
+            "mainClass": "Blackjack",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Booleans",
+            "request": "launch",
+            "mainClass": "Booleans",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch BreakAndContinue",
+            "request": "launch",
+            "mainClass": "BreakAndContinue",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Breakpoints",
+            "request": "launch",
+            "mainClass": "Breakpoints",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bus",
+            "request": "launch",
+            "mainClass": "Bus",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Championship",
+            "request": "launch",
+            "mainClass": "Championship",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Chatbot",
+            "request": "launch",
+            "mainClass": "Chatbot",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Chorus",
+            "request": "launch",
+            "mainClass": "Chorus",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch CounterTool",
+            "request": "launch",
+            "mainClass": "CounterTool",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountingTool",
+            "request": "launch",
+            "mainClass": "CountingTool",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch DealerShip",
+            "request": "launch",
+            "mainClass": "DealerShip",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Delimeter",
+            "request": "launch",
+            "mainClass": "Delimeter",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Detention",
+            "request": "launch",
+            "mainClass": "Detention",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiceJack",
+            "request": "launch",
+            "mainClass": "DiceJack",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Doubles",
+            "request": "launch",
+            "mainClass": "Doubles",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvenOrOdd",
+            "request": "launch",
+            "mainClass": "EvenOrOdd",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exam",
+            "request": "launch",
+            "mainClass": "Exam",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Form",
+            "request": "launch",
+            "mainClass": "Form",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Greeting",
+            "request": "launch",
+            "mainClass": "Greeting",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Grocer",
+            "request": "launch",
+            "mainClass": "Grocer",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Guess",
+            "request": "launch",
+            "mainClass": "Guess",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hangman",
+            "request": "launch",
+            "mainClass": "Hangman",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch HighScore",
+            "request": "launch",
+            "mainClass": "HighScore",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfElse",
+            "request": "launch",
+            "mainClass": "IfElse",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaDraw",
+            "request": "launch",
+            "mainClass": "JavaDraw",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaRolls",
+            "request": "launch",
+            "mainClass": "JavaRolls",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Javapedia",
+            "request": "launch",
+            "mainClass": "Javapedia",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch JoiningStrings",
+            "request": "launch",
+            "mainClass": "JoiningStrings",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LogicalOperators",
+            "request": "launch",
+            "mainClass": "LogicalOperators",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LotteryTickets",
+            "request": "launch",
+            "mainClass": "LotteryTickets",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Meeting",
+            "request": "launch",
+            "mainClass": "Meeting",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch NestedLoop",
+            "request": "launch",
+            "mainClass": "NestedLoop",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parameters",
+            "request": "launch",
+            "mainClass": "Parameters",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch PizzaDelivery",
+            "request": "launch",
+            "mainClass": "PizzaDelivery",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Points",
+            "request": "launch",
+            "mainClass": "Points",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pokerito",
+            "request": "launch",
+            "mainClass": "Pokerito",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prices",
+            "request": "launch",
+            "mainClass": "Prices",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomNumbers",
+            "request": "launch",
+            "mainClass": "RandomNumbers",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Receipt",
+            "request": "launch",
+            "mainClass": "Receipt",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReferenceTrap",
+            "request": "launch",
+            "mainClass": "ReferenceTrap",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReturnValue",
+            "request": "launch",
+            "mainClass": "ReturnValue",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RingAnnouncer",
+            "request": "launch",
+            "mainClass": "RingAnnouncer",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RockPaperScissor",
+            "request": "launch",
+            "mainClass": "RockPaperScissor",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Scoop",
+            "request": "launch",
+            "mainClass": "Scoop",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Servey",
+            "request": "launch",
+            "mainClass": "Servey",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SignIn",
+            "request": "launch",
+            "mainClass": "SignIn",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SignUp",
+            "request": "launch",
+            "mainClass": "SignUp",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwichStatment",
+            "request": "launch",
+            "mainClass": "SwichStatment",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TDArrays",
+            "request": "launch",
+            "mainClass": "TDArrays",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tax",
+            "request": "launch",
+            "mainClass": "Tax",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TicTacToe",
+            "request": "launch",
+            "mainClass": "TicTacToe",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TipTheWaiter",
+            "request": "launch",
+            "mainClass": "TipTheWaiter",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Trick",
+            "request": "launch",
+            "mainClass": "Trick",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Trivia",
+            "request": "launch",
+            "mainClass": "Trivia",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpdatingArrays",
+            "request": "launch",
+            "mainClass": "UpdatingArrays",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Variables",
+            "request": "launch",
+            "mainClass": "Variables",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "VendingMachine.Main",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Weather",
+            "request": "launch",
+            "mainClass": "Weather",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch WeatherNetwork",
+            "request": "launch",
+            "mainClass": "WeatherNetwork",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch WorkSchedule",
+            "request": "launch",
+            "mainClass": "WorkSchedule",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(3)",
+            "request": "launch",
+            "mainClass": "com.company.Main",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(4)",
+            "request": "launch",
+            "mainClass": "javabootcamp.src.Main",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(5)",
+            "request": "launch",
+            "mainClass": "section7.src.AirLinesPackage.Main",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(6)",
+            "request": "launch",
+            "mainClass": "section7.src.CarDealerShip.Main",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch CaptureRook",
+            "request": "launch",
+            "mainClass": "section7.src.Challenge.CaptureRook",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch HittingJackpot",
+            "request": "launch",
+            "mainClass": "section7.src.Challenge.HittingJackpot",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TowerHanoi",
+            "request": "launch",
+            "mainClass": "section7.src.Challenge.TowerHanoi",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TypingGame",
+            "request": "launch",
+            "mainClass": "section7.src.Challenge.TypingGame",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(7)",
+            "request": "launch",
+            "mainClass": "section7.src.VMachine.Main",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(8)",
+            "request": "launch",
+            "mainClass": "section7.src.VendingMachine.Main",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exam(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.Exam",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Grocer(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.Grocer",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hangman(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.Hangman",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch HighScore(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.HighScore",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Javapedia(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.Javapedia",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LotteryTickets(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.LotteryTickets",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(9)",
+            "request": "launch",
+            "mainClass": "src.com.company.Main",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch NestedLoop(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.NestedLoop",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch PizzaDelivery(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.PizzaDelivery",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prices(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.Prices",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomNumbers(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.RandomNumbers",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Receipt(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.Receipt",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReferenceTrap(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.ReferenceTrap",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RingAnnouncer(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.RingAnnouncer",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TDArrays(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.TDArrays",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tax(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.Tax",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TicTacToe(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.TicTacToe",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpdatingArrays(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.UpdatingArrays",
+            "projectName": "javabootcamp_ae966d8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Weather(1)",
+            "request": "launch",
+            "mainClass": "src.com.company.Weather",
+            "projectName": "javabootcamp_ae966d8e"
+        }
+    ]
+}
