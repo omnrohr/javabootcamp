@@ -7,6 +7,8 @@
         "section5",
         "section6",
         "sectionseven",
-        "CodeWithMosh"
+        "CodeWithMosh",
+        "mutable",
+        "immutable",
     ]
 }
