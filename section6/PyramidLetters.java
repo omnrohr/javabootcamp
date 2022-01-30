@@ -7,12 +7,12 @@ public class PyramidLetters {
                 System.out.print("\n");
                 continue;
             }
-            for (int j = 1; j <= 10; j++) {
-                letter++;
-                if (j < i) {
-                    System.out.print("   ");
-                } else {
+            for (int j = 1; j <= i; j++) {
+                if (j == i) {
                     System.out.print(" " + letter + " ");
+                    letter++;
+                } else {
+                    System.out.print("   ");
                 }
             }
             System.out.print("\n");
